@@ -1,14 +1,20 @@
-name = input("Podaj swoje imię ")
 
-try:
-    if name.endswith("a"):
-        print(name)
-        print('jestes kobieta')
-    else:
-        print(name)
-        print('Jestes mężczyzną')
-except:
-    name("Maria")
+
+
+name = input("Podaj swoje imię ")
+lname=name.lower()
+
+
+if lname==("maria"):
+    print(lname)
     print("Cfane, ale możesz by i kobietą i mężczyzną")
+elif lname.endswith(""):
+    print("Musisz podac jakąs wartosc")
+elif lname.endswith("a"):
+    print(lname)
+    print('jestes kobieta')
+else:
+    print(lname)
+    print('Jestes mężczyzną')
 
 blank=input()
