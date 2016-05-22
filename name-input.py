@@ -1,4 +1,4 @@
-name = input("Podaj swoje imię")
+name = input("Podaj swoje imię ")
 
 try:
     if name.endswith("a"):
@@ -8,7 +8,7 @@ try:
         print(name)
         print('Jestes mężczyzną')
 except:
-    name=("Maria")
+    name("Maria")
     print("Cfane, ale możesz by i kobietą i mężczyzną")
 
-
+blank=input()
