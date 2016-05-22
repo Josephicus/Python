@@ -8,7 +8,7 @@ lname=name.lower()
 if lname==("maria"):
     print(lname)
     print("Cfane, ale możesz by i kobietą i mężczyzną")
-elif lname.endswith(""):
+elif lname==(""):
     print("Musisz podac jakąs wartosc")
 elif lname.endswith("a"):
     print(lname)
